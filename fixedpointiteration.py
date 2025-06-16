@@ -6,7 +6,8 @@ def f(x):
 x0 = float(input("Enter your initial guess: "))
 e = float(input("Enter the tolerable error: "))
 N = int(input("Enter the maximum number of iterations: "))
-
+print("\nFixed Point Iteration Method\n")
+print("Iteration\t x\t\t g(x)\t\t Error")
 
 for i in range(1, N+1):
     x1 = g(x0)

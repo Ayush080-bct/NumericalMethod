@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
    #( return eval(eqn)#it will convert the equation innto a proper solvable since eqn is only string or character
 #it doest not evaluate the expression it likes writing printf("a+b") instead of a+b)
 def f(x):
-    return x**10-1
+    return np.cosh(x)-3
 
 
 a=float(input("Enter the first intial guess a: "))
