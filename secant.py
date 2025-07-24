@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
    #( return eval(eqn)#it will convert the equation innto a proper solvable since eqn is only string or character
 #it doest not evaluate the expression it likes writing printf("a+b") instead of a+b)
 def f(x):
-    return np.cosh(x)-3
+    return np.exp(x)+np.sin(x)-9
 
 
 a=float(input("Enter the first intial guess a: "))
@@ -44,7 +44,7 @@ else:
      x = np.linspace(c-10,c+10,400)
      plt.plot(x, f(x), label=r'$x^2 - 4x - 10$', color='red')  
      plt.scatter(m, f(np.array(m)), color='blue')
-
+ 
      for i, val in enumerate(m):
         plt.text(val, f(val), f'{i+1}', fontsize=9, color='black')
 

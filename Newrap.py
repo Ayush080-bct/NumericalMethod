@@ -48,10 +48,9 @@ else:
     else:
         print(f'The solution does not converge in {N} iterations')
 
-    x_vals = np.linspace(b - 10, b + 10, 400)
-    y_vals = f(x_vals)
-
-    plt.plot(x_vals, y_vals, label=f"f(x) = {eqn}", color="red")
+   
+    x=np.linspace(b-10,b+10,200)
+    plt.plot(x, f(x), label=f"f(x) = {eqn}", color="red")
     plt.axhline(0, color='black', linewidth=0.7)#used to draw horizontal
     plt.axvline(0, color='black', linewidth=0.7)#used to draw vertical line and 0 is the axis where line is drawn  ,color black and width 0.7
     plt.scatter(b, f(b), color='blue', label=f"Root at x = {b:.6f}")

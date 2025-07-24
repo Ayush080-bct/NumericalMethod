@@ -55,7 +55,7 @@ else:
     for i, val in enumerate(m):
         plt.text(val, f(val), f'{i+1}', fontsize=9, color='black')
 
-    plt.axhline(0, color='g')
+    plt.axhline(0, color='red')
     plt.axvline(0, color='black')
     plt.xlabel('x')
     plt.ylabel('f(x)')
