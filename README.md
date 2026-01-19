@@ -433,9 +433,9 @@ This repository is for educational purposes. Use these implementations to learn,
 
 ## Contact & Support
 
-- **Issues**: Report bugs or request features via GitHub Issues
-- **Questions**: Use GitHub Discussions for study help
-- **Resources**: Check your GitHub Student Pack benefits at education.github.com
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/Ayush080-bct/NumericalMethod/issues)
+- **Questions**: Open a [GitHub Discussion](https://github.com/Ayush080-bct/NumericalMethod/discussions) for study help
+- **Resources**: Check your GitHub Student Pack benefits at [education.github.com](https://education.github.com/pack)
 
 ---
 

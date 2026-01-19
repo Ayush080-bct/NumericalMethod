@@ -75,9 +75,9 @@ def bisection_example():
         itr += 1
     
     # Display results
-    pd.set_option('display.float_format', '{:.6f}'.format)
     df = pd.DataFrame(A, columns=['Iter', 'a', 'b', 'c (midpoint)', 'f(a)', 'f(b)', 'f(c)', 'Error'])
-    print(df.to_string(index=False))
+    with pd.option_context('display.float_format', '{:.6f}'.format):
+        print(df.to_string(index=False))
     
     print("\n" + "=" * 60)
     if er < e:
