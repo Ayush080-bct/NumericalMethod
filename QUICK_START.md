@@ -213,3 +213,4 @@ Access at: https://education.github.com/pack
 **Remember**: Numerical methods are about finding approximate solutions efficiently. Don't worry if you don't get exact answers - that's the point! Focus on understanding convergence and error.
 
 Good luck with your studies! 🎉
+

@@ -231,3 +231,4 @@ Use this template to track your learning progress and keep notes.
 ---
 
 **Notes**: Feel free to modify this template to suit your learning style!
+
